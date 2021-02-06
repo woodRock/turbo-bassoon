@@ -5788,6 +5788,7 @@ function wrappy (fn, cb) {
 
 const core = __nccwpck_require__(186);
 const github = __nccwpck_require__(438);
+const fetch = __nccwpck_require__(467);
 
 async function run() {
   const GITHUB_TOKEN = core.getInput("GITHUB_TOKEN");
