@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/woodRock/turbo-bassoon#readme",
   "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@actions/github": "^4.0.0",
     "@vercel/ncc": "^0.27.0"
   }
 }
