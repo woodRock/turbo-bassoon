@@ -5791,7 +5791,7 @@ const github = __nccwpck_require__(438);
 
 async function run() {
   const GITHUB_TOKEN = core.getInput("GITHUB_TOKEN");
-  const otokit = github.getOcktokit(GITHUB_TOKEN);
+  const otokit = github.getOctokit(GITHUB_TOKEN);
 
   const { context = {} } = github;
   const { pull_request } = context.payload;
